@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Explora-Dores </title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+	
+</head>
+<body class="grid_container">
+
+
+<header class="header">
+
+	 <div class="logo">
+    	<a href="index.html"><img src="img/logodora_header.png"></a>
+    </div>
+
+    <nav class="nav">
+    	<ul>
+			<li>
+				<a href="contacto.html">CONTACTO</a>
+				</li>
+				<li>
+				<a href="horarios.html">HORARIOS</a>
+				</li>
+				<li>
+				<a href="actividades.html">ACTIVIDADES</a>
+			</li>
+		</ul>
+    </nav>
+
+ </header> <!--cabecera -->
+
+<aside class="sidebar1"> 
+	<div id="contenedor_sidebar1">
+
+		<p>Mirá todas las <a href="actividades.html"><strong>actividades</strong></a> que podés encontrar! </p>
+
+		<div id="img_sidebar1">
+		<a href="actividades.html">
+			<img src="img/img_sidebar1.png">
+		</a>
+		</div>
+	</div>
+
+ </aside> <!--costado izquierdo -->
+
+
+<aside class="sidebar2">
+	<div id="contenedor_sidebar2">
+		<p>Si venís el día de tu cumple <strong>Dora</strong> te regala una súper mochila exploradora!</p>
+		<img src="img/mockup_mochila.png">
+		
+	</div>
+</aside> <!--costado derecho -->
+
+
+
+<article class="main">
+
+	<!--comienzo galeria Escritorio XL-->
+	<div class="swiper">
+  <!-- contenedor adicional -->
+  <div class="swiper-wrapper">
+    <!-- Diapositivas -->
+    <div class="swiper-slide"><img src="img/galeria_1.png"></div>
+    <div class="swiper-slide"><img src="img/galeria_2.png"></div>
+    <div class="swiper-slide"><img src="img/06.jpg"></div>  
+  </div>
+
+   <!-- Si necesitas paginación -->
+  <div class="swiper-pagination"></div>
+
+  <!-- Si necesitas los botones de navegación -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+  <!-- If we need scrollbar 
+  <div class="swiper-scrollbar"></div> -->
+</div>	
+	<!--fin galería Escritorio XL-->
+
+
+	
+
+
+	
+
+</article> <!--contenido -->
+
+
+
+
+
+<footer class="footer">
+	<div id="logonick">
+        <a href="https://www.nickelodeon.la/">
+          <img src="img/logonick.png">
+        </a>
+      </div>
+      
+      <div id="minombre">
+        <a href="#">
+          <p> Lucía Casas </p>
+        </a>
+      </div>
+
+      <div id="logouces">
+        <a href="https://www.uces.edu.ar/">
+          <img src="img/logouces.png">
+        </a>
+      </div>
+</footer> <!--pie -->
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<script>
+  const swiper = new Swiper('.swiper', {
+  // parametros opcionales
+  direction: 'horizontal',
+  loop: true,
+  // Función de autoplay
+  autoplay:true,
+
+// Función de efecto de fundido
+  effect: 'fade',
+
+   // Función de paginación
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+</script>
+
+ 
+
+
+</body>
+</html>
